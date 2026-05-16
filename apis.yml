@@ -8,11 +8,168 @@ tags:
   - Freight
   - Transportation
   - Logistics
-description: 'The largest railway network in Canada and one of the largest in North America spanning over 20,000 route miles. Transports goods across an integrated network linking the Atlantic and Pacific coasts with the Gulf of Mexico.'
+  - Supply Chain
+  - Intermodal
+description: >-
+  Canadian National Railway (CN) is the largest railway network in Canada and
+  one of the largest in North America spanning over 20,000 route miles. CN
+  transports goods across an integrated network linking the Atlantic and
+  Pacific coasts with the Gulf of Mexico. CN offers shipper APIs, EDI
+  integration, the eBusiness portal, and the CN ONE mobile app for
+  shipment tracking, ordering, billing, and rate management.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: canadian-national-railway:cn-shipper-api
+    name: CN Shipper API
+    tags:
+      - Freight
+      - Tracking
+      - Shipping
+      - Rail
+    humanURL: https://www.cn.ca/en/customer-centre/
+    properties:
+      - url: https://www.cn.ca/en/customer-centre/
+        type: Documentation
+    description: >-
+      CN's Application Programming Interface (API) enables shippers to
+      integrate CN data and operations into their own systems. The API
+      supports automated shipment ordering, equipment release, real-time
+      cargo tracking, rate and pricing retrieval, and documentation
+      submission. Access is provided through CN's customer onboarding
+      and eBusiness program.
+
+  - aid: canadian-national-railway:cn-edi
+    name: CN EDI Services
+    tags:
+      - EDI
+      - Integration
+      - Supply Chain
+    humanURL: https://www.cn.ca/en/customer-centre/
+    properties:
+      - url: https://www.cn.ca/en/customer-centre/
+        type: Documentation
+    description: >-
+      CN supports Electronic Data Interchange (EDI) for high-volume
+      shipping customers. EDI enables automated transmission of shipping
+      instructions, status updates, waybills, and invoicing between CN
+      and customer systems using standard EDI transaction sets.
+
+  - aid: canadian-national-railway:cn-ebusiness
+    name: CN eBusiness Portal
+    tags:
+      - Portal
+      - Shipper Tools
+      - Account Management
+    humanURL: https://ecprod.cn.ca/
+    properties:
+      - url: https://ecprod.cn.ca/
+        type: Documentation
+    description: >-
+      The CN eBusiness portal provides shippers with web-based access to
+      shipment ordering, cargo tracking, account management, billing,
+      and customer support. Shippers can order or release equipment,
+      track cargo, and submit required documentation through the portal.
+
+  - aid: canadian-national-railway:cn-one-mobile-app
+    name: CN ONE Mobile App
+    tags:
+      - Mobile App
+      - Tracking
+      - Shipper Tools
+    humanURL: https://www.cn.ca/en/customer-centre/
+    properties:
+      - url: https://www.cn.ca/en/customer-centre/
+        type: Documentation
+    description: >-
+      CN ONE is a consolidated mobile shipment tracking app for CN
+      customers offering real-time cargo monitoring, shipment status,
+      and notifications across the CN rail network.
+
+  - aid: canadian-national-railway:cn-ebill
+    name: CN eBill
+    tags:
+      - Billing
+      - Invoicing
+      - Payments
+    humanURL: https://www.cn.ca/en/customer-centre/
+    properties:
+      - url: https://www.cn.ca/en/customer-centre/
+        type: Documentation
+    description: >-
+      CN eBill is the customer tool for managing rail freight invoices,
+      account statements, and online bill payment. Integrated with the
+      eBusiness portal for end-to-end shipping financial management.
+
+  - aid: canadian-national-railway:cn-carbon-calculator
+    name: CN Carbon Calculator
+    tags:
+      - Carbon
+      - Emissions
+      - Sustainability
+    humanURL: https://www.cn.ca/en/sustainability/
+    properties:
+      - url: https://www.cn.ca/en/sustainability/
+        type: Documentation
+    description: >-
+      CN's carbon calculator allows shippers to estimate the greenhouse
+      gas emissions associated with their rail and intermodal shipments,
+      supporting sustainability reporting and modal comparison versus
+      truck or other transportation modes.
 common:
   - type: Website
     url: https://www.cn.ca/
+  - type: Portal
+    url: https://ecprod.cn.ca/
+  - type: CustomerCenter
+    url: https://www.cn.ca/en/customer-centre/
+  - type: InvestorRelations
+    url: https://www.cn.ca/en/investors/
+  - type: Sustainability
+    url: https://www.cn.ca/en/sustainability/
+  - type: Features
+    data:
+      - name: Shipment Ordering
+        description: Order rail and intermodal shipments via eTools, API, or EDI.
+      - name: Cargo Tracking
+        description: Real-time monitoring of freight across CN's 20,000-mile network.
+      - name: Equipment Management
+        description: Order, release, and manage private and CN-owned railcars.
+      - name: Electronic Billing
+        description: Manage invoices and payments through CN eBill.
+      - name: Rate and Tariff Tools
+        description: Retrieve carload and intermodal pricing through interactive tools.
+      - name: API Integration
+        description: Automate shipment operations using CN's REST API.
+      - name: EDI Integration
+        description: Exchange shipping data via Electronic Data Interchange standards.
+      - name: Carbon Calculator
+        description: Estimate emissions for rail and intermodal shipments.
+  - type: UseCases
+    data:
+      - name: Automotive Supply Chain
+        description: Move finished vehicles and automotive parts across North America.
+      - name: Grain Transportation
+        description: Move bulk grain from prairie origins to ports and processors.
+      - name: Intermodal Container Movement
+        description: Move international and domestic containers between ports and inland terminals.
+      - name: Petroleum and Chemicals
+        description: Move tank-car loads of crude, refined fuels, and chemicals.
+      - name: Forest Products
+        description: Move lumber, pulp, and paper products from producers to consumers.
+      - name: Consumer Goods Distribution
+        description: Move retail and consumer goods between distribution centers.
+  - type: Integrations
+    data:
+      - name: Class I Railroad Interchanges
+        description: Interconnection with BNSF, CSX, NS, UP and other North American Class I railroads.
+      - name: Ocean Carriers
+        description: Intermodal interchange with steamship lines at Atlantic, Pacific, and Gulf ports.
+      - name: Trucking and Drayage
+        description: First-mile and last-mile trucking partnerships for door-to-door service.
+      - name: TransUnion Eagle Capital
+        description: Financing partnerships for shippers.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
