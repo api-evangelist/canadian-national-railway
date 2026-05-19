@@ -118,6 +118,8 @@ apis:
       supporting sustainability reporting and modal comparison versus
       truck or other transportation modes.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/cn
   - type: Website
     url: https://www.cn.ca/
   - type: Portal
