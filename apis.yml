@@ -118,6 +118,8 @@ apis:
       supporting sustainability reporting and modal comparison versus
       truck or other transportation modes.
 common:
+  - type: DomainSecurity
+    url: security/canadian-national-railway-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/cn
   - type: Website
