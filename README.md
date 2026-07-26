@@ -51,10 +51,6 @@ Online customer tool for invoice management and bill payment.
 
 #### Tags: Billing, Invoicing, Payments
 
-### CN Carbon Calculator
-Estimate greenhouse gas emissions for rail and intermodal shipments.
-
-**Human URL:** [https://www.cn.ca/en/sustainability/](https://www.cn.ca/en/sustainability/)
 
 #### Tags: Carbon, Emissions, Sustainability
 

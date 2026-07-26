@@ -2,7 +2,18 @@ aid: canadian-national-railway
 url: https://raw.githubusercontent.com/api-evangelist/canadian-national-railway/refs/heads/main/apis.yml
 name: Canadian National Railway
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/canadian-national-railway.png
 tags:
   - Rail
   - Freight
@@ -18,7 +29,7 @@ description: >-
   integration, the eBusiness portal, and the CN ONE mobile app for
   shipment tracking, ordering, billing, and rate management.
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 apis:
   - aid: canadian-national-railway:cn-shipper-api
@@ -102,21 +113,6 @@ apis:
       account statements, and online bill payment. Integrated with the
       eBusiness portal for end-to-end shipping financial management.
 
-  - aid: canadian-national-railway:cn-carbon-calculator
-    name: CN Carbon Calculator
-    tags:
-      - Carbon
-      - Emissions
-      - Sustainability
-    humanURL: https://www.cn.ca/en/sustainability/
-    properties:
-      - url: https://www.cn.ca/en/sustainability/
-        type: Documentation
-    description: >-
-      CN's carbon calculator allows shippers to estimate the greenhouse
-      gas emissions associated with their rail and intermodal shipments,
-      supporting sustainability reporting and modal comparison versus
-      truck or other transportation modes.
 common:
   - type: DomainSecurity
     url: security/canadian-national-railway-domain-security.yml
