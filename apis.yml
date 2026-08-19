@@ -30,7 +30,7 @@ description: >-
   shipment tracking, ordering, billing, and rate management.
 created: '2026-05-05'
 modified: '2026-07-25'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: canadian-national-railway:cn-shipper-api
     name: CN Shipper API
