@@ -94,20 +94,6 @@ apis:
       and customer support. Shippers can order or release equipment,
       track cargo, and submit required documentation through the portal.
 
-  - aid: canadian-national-railway:cn-one-mobile-app
-    name: CN ONE Mobile App
-    tags:
-      - Mobile App
-      - Tracking
-      - Shipper Tools
-    humanURL: https://www.cn.ca/en/customer-centre/
-    properties:
-      - url: https://www.cn.ca/en/customer-centre/
-        type: Documentation
-    description: >-
-      CN ONE is a consolidated mobile shipment tracking app for CN
-      customers offering real-time cargo monitoring, shipment status,
-      and notifications across the CN rail network.
 
   - aid: canadian-national-railway:cn-ebill
     name: CN eBill
