@@ -40,7 +40,7 @@ description: >-
   integration, the eBusiness portal, and the CN ONE mobile app for
   shipment tracking, ordering, billing, and rate management.
 created: '2026-05-05'
-modified: '2026-07-25'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: canadian-national-railway:cn-shipper-api
@@ -111,6 +111,8 @@ apis:
       eBusiness portal for end-to-end shipping financial management.
 
 common:
+  - url: https://www.cn.ca/en/media/news/
+    type: Blog
   - type: DomainSecurity
     url: security/canadian-national-railway-domain-security.yml
   - type: LinkedIn
