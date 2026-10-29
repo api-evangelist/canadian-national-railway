@@ -1,4 +1,4 @@
-# Canadian National Railway (canadian-national-railway)
+# Canadian National Railway
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,68 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Canadian National Railway (CN) is the largest railway network in Canada and one of the largest in North America spanning over 20,000 route miles. CN offers shipper APIs, EDI integration, the eBusiness portal, and the CN ONE mobile app for shipment tracking, ordering, billing, and rate management.
+Canadian National Railway (CN) is the largest railway network in Canada and one of the largest in North America spanning over 20,000 route miles. CN transports goods across an integrated network linking the Atlantic and Pacific coasts with the Gulf of Mexico. CN offers shipper APIs, EDI integration, the eBusiness portal, and the CN ONE mobile app for shipment tracking, ordering, billing, and rate management.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/canadian-national-railway/refs/heads/main/apis.yml)
+**Areas:** Rail · Freight · Transportation · Logistics · Supply Chain · Intermodal
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Canadian National Railway on APIs.io
 
-## Tags:
+Everything profiled for Canadian National Railway is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/canadian-national-railway/](https://apis.io/providers/canadian-national-railway/)** — or go straight to one of the APIs or properties below.
 
- - Rail, Freight, Transportation, Logistics, Supply Chain, Intermodal
+### APIs (4)
 
-## Timestamps
+- [CN Shipper API](https://apis.io/apis/canadian-national-railway/cn-shipper-api/) — CN's Application Programming Interface (API) enables shippers to integrate CN data and operations into their own systems. The API supports automated…
+- [CN EDI Services](https://apis.io/apis/canadian-national-railway/cn-edi/) — CN supports Electronic Data Interchange (EDI) for high-volume shipping customers. EDI enables automated transmission of shipping instructions, status…
+- [CN eBusiness Portal](https://apis.io/apis/canadian-national-railway/cn-ebusiness/) — The CN eBusiness portal provides shippers with web-based access to shipment ordering, cargo tracking, account management, billing, and customer support.…
+- [CN eBill](https://apis.io/apis/canadian-national-railway/cn-ebill/) — CN eBill is the customer tool for managing rail freight invoices, account statements, and online bill payment. Integrated with the eBusiness portal for…
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### CN Shipper API
-Application Programming Interface for shipment ordering, tracking, rate retrieval, and documentation submission.
+#### Security (1)
 
-**Human URL:** [https://www.cn.ca/en/customer-centre/](https://www.cn.ca/en/customer-centre/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags: Freight, Tracking, Shipping, Rail
+- [Canadian National Railway Domain Security](https://apis.io/security/canadian-national-railway/canadian-national-railway-domain-security/)
 
-### CN EDI Services
-Electronic Data Interchange for automated transmission of shipping instructions, statuses, waybills, and invoicing.
+## Where to find this API
 
-**Human URL:** [https://www.cn.ca/en/customer-centre/](https://www.cn.ca/en/customer-centre/)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-#### Tags: EDI, Integration, Supply Chain
+- [Website](https://www.cn.ca/)
+- [Blog](https://www.cn.ca/en/media/news/)
 
-### CN eBusiness Portal
-Web-based shipper portal for shipment ordering, tracking, billing, and equipment management.
+## API Evangelist rating
 
-**Human URL:** [https://ecprod.cn.ca/](https://ecprod.cn.ca/)
+**Kin Score 9.2** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-#### Tags: Portal, Shipper Tools, Account Management
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 0.0 |
 
-### CN ONE Mobile App
-Consolidated mobile shipment tracking app for CN customers.
+**Agent readiness 0.0** — human-only
 
-**Human URL:** [https://www.cn.ca/en/customer-centre/](https://www.cn.ca/en/customer-centre/)
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-#### Tags: Mobile App, Tracking, Shipper Tools
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-### CN eBill
-Online customer tool for invoice management and bill payment.
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/canadian-national-railway/](https://apis.io/providers/canadian-national-railway/).
 
-**Human URL:** [https://www.cn.ca/en/customer-centre/](https://www.cn.ca/en/customer-centre/)
+## How this profile is made
 
-#### Tags: Billing, Invoicing, Payments
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Canadian National Railway: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-#### Tags: Carbon, Emissions, Sustainability
+## Open an issue
 
-## Common
-
-- **Website:** https://www.cn.ca/
-- **Portal:** https://ecprod.cn.ca/
-- **CustomerCenter:** https://www.cn.ca/en/customer-centre/
-
-## Maintainers
-
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/canadian-national-railway/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
